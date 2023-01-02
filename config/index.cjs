@@ -31,20 +31,20 @@ const USER_CONFIG = {
         {
           type: '*生日', name: '小仙女', year: '2001', date: '01-06',
         },
-        // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
-        //{
-          //type: '生日', name: '李四', year: '1996', date: '09-31',
-        //},
-        //{
-          //type: '节日', name: '相识纪念日', year: '2020', date: '09-03',
-        //},
+//         注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
+//         {
+//           type: '生日', name: '李四', year: '1996', date: '09-31',
+//         },
+//         {
+//           type: '节日', name: '相识纪念日', year: '2020', date: '09-03',
+//         },
       ],
       // 我们在一起已经有xxxx天了的配置
       customizedDateList: [
         // 在一起的日子
         { keyword: 'love_day', date: '2022-11-18' },
-        // 结婚纪念日
-       // { keyword: 'marry_day', date: '2022-09-09' },
+//         结婚纪念日
+//        { keyword: 'marry_day', date: '2022-09-09' },
       ],
     },
   ],
